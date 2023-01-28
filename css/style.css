@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+h1, h2, h3, h4, p, footer, header{
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	color:#002699;
+}
+h3{
+	font-size:22px;
+}
+h4{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	font-size: 24px;
+	}
+p{
+	font-size: 20px;
+}
+header{
+	flex: 0 0 100%;
+  	text-align: center;
+	background-color: #e6ecff;
+}
+footer{
+	flex: 0 0 100%;
+	text-align:center;
+	background-color: #e6ecff;
+	font-size: 32px;
+}
+body{
+	background-color: #99b3ff;
+}
+img {
+  	border-radius: 15px;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	}
+.center {
+  margin-top: 7%;
+	}
+/* the parent container that holds everything */
+.container{
+	display: flex;
+	background-color: #99b3ff;
+	justify-content:center;
+	align-items:center;
+	border:  5px;
+	border-style: solid;
+  	border-color: #002699;
+}
+/* the boxes that hold content */
+.content{
+	border:  5px;
+	height: 500px;
+	width: 350px;
+	background-color: #99b3ff;
+	font-size: 1px;
+	padding: 5px;
+	}
+
+/* instructions for button links */
+a.button:link{
+	display:block;
+	background-color: #002080;
+	text-align: center;
+	color: #e6ecff;
+	text-decoration:none;
+	border-radius: 35px;
+	padding: 4px 4px;
+	margin: 5px;
+	width: 250px;
+}
+a.button:visited{
+	display:block;
+	background-color: #e6ecff;
+	text-align: center;
+	color: #002080;
+	text-decoration:none;
+	border-radius: 35px;
+	padding: 6px 4px;
+	margin: 4px;
+	width: 250px;
+}
+
+
